@@ -1,9 +1,10 @@
 # CSI 3140 Lab 1
 
-## Purpose of the repository
+## Purpose
 
-This repository is for the task of the CSI 3140 lab1.
+The purpose of this repository is to complete the task of the CSI 3140 lab1 part 1.
 
-## Group member
+## Portfolio
 
-My teammate is Ruoyu Liu 300176134 
+Name: Chenxuan Gao
+Student Number: 300229429
