@@ -1,0 +1,51 @@
+body {
+  background: url("/thomas-lefebvre-mT1uxKaegSQ-unsplash.jpg") no-repeat center
+    center fixed;
+
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+.container {
+  margin-left: 120px;
+  margin-right: 80px;
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav > a {
+  margin-right: 20px;
+}
+
+.main {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction {
+  margin-right: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
