@@ -16,6 +16,7 @@ a {
 }
 
 .header {
+  background-color: rgb(225, 225, 225, 0.1);
   width: 100%;
   position: sticky;
   top: 0px;
@@ -37,7 +38,7 @@ a {
   margin-right: 20px;
 }
 
-.education {
+.intro {
   display: flex;
   justify-content: space-between;
 }
@@ -48,4 +49,59 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: start;
+  
+}
+
+.highlight{
+  color:aqua;
+}
+
+.edu-heading{
+  text-align: center;
+}
+
+.edu-school{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edu-card-1{
+  /* border: 1px solid rebeccapurple; */
+  margin-right: 20px;
+  padding-left: 30px;
+}
+
+.edu-card-2{
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 20px;
+  padding-left: 30px;
+}
+.skill-heading{
+  text-align: center;
+}
+.skills-matching {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.skills {
+  margin-left: 70px;
+}
+
+.skill-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.exp-cards{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.experience-heading{
+  text-align: center;
 }
