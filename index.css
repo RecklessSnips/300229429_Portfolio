@@ -10,9 +10,19 @@ a {
   color: azure;
 }
 
+hr {
+  background-color: black; /* This is more reliable */
+  height: 1px; /* Adjust height as needed */
+  border: none; /* Remove default border */
+}
+
 .container {
   margin-left: 120px;
   margin-right: 80px;
+}
+
+.github:hover {
+  color: rgb(11, 51, 252);
 }
 
 .header {
@@ -33,9 +43,14 @@ a {
   margin-right: 20px;
 }
 
+.nav-link:hover {
+  color: rgb(11, 51, 252);
+}
+
 .main {
   margin-top: 50px;
   margin-right: 20px;
+  margin-bottom: 100px;
 }
 
 .intro {
@@ -49,34 +64,36 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: start;
-  
 }
 
-.highlight{
-  color:aqua;
+.highlight {
+  color: aqua;
 }
 
-.edu-heading{
+.edu-heading {
   text-align: center;
 }
 
-.edu-school{
+.edu-school {
   display: flex;
   justify-content: space-evenly;
 }
 
-.edu-card-1{
-  /* border: 1px solid rebeccapurple; */
+.edu-card-1 {
   margin-right: 20px;
   padding-left: 30px;
 }
 
-.edu-card-2{
-  /* border: 1px solid rebeccapurple; */
-  margin-left: 20px;
+.edu-card-2 {
+  margin-left: 80px;
   padding-left: 30px;
 }
-.skill-heading{
+
+.edu-liu {
+  margin-left: 200px;
+}
+
+.skill-heading {
   text-align: center;
 }
 .skills-matching {
@@ -92,16 +109,91 @@ a {
   margin-left: 70px;
 }
 
-.skill-card{
+.skill-card {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.exp-cards{
-  display:flex;
+.exp-cards {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.experience-heading{
+.experience-heading {
   text-align: center;
+}
+
+.exp-link {
+  color: rgb(47, 45, 45);
+}
+
+.exp-heading {
+  color: gold;
+}
+
+.exp-link {
+  color: gold;
+}
+
+.exp-link:hover {
+  color: antiquewhite;
+}
+
+.project-heading {
+  text-align: center;
+}
+
+.project-link {
+  color: cyan;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image {
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+.project-detail {
+  display: flex;
+  justify-content: space-start;
+  margin-bottom: 50px;
+}
+
+.project-description {
+  margin-left: 100px;
+  font-size: 1.3rem;
+}
+
+.footer {
+  border-top: 1px solid black;
+  margin-bottom: 200px;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-detail {
+  margin-left: 100px;
+}
+
+.g-link {
+  color: black;
+}
+
+.g-link:hover {
+  color: aqua;
 }
